@@ -1,74 +1,74 @@
 
 /*======================================================================== 
-1.½ºÀ§Ä¡ ÄÉÀÌ½º ±¸¹®¿¡ defualt °ªÀÌ ¼³Á¤µÇ¾îÀÌÀÖÁö ¾ÊÀ½ 
--> defualt °ªÀ» ²À ½áÁÜ 
+1.ìŠ¤ìœ„ì¹˜ ì¼€ì´ìŠ¤ êµ¬ë¬¸ì— defualt ê°’ì´ ì„¤ì •ë˜ì–´ì´ìžˆì§€ ì•ŠìŒ 
+-> defualt ê°’ì„ ê¼­ ì¨ì¤Œ 
 
-2.±â´É ±¸Çö ºÎÁ· -> ÄÚµå Â¥¸é¼­ ÀÌ ±â´É ±¸ÇöÇØ¾ß °Ú´Ù! »ý°¢Çß´Âµ¥ ±¸ÇöÇÏÁö ¾ÊÀº °Íµé  
-   2.1. ½Ã°èÀÇ 10°¡Áö µ¿ÀÛ ¸ðµå ±¸Çö(½ºÅé¿öÄ¡, ¾Ë¶÷) 
-   2.2. 4³â, 100³â °£°Ý À±³â º¸Á¤ ±â´É ±¸Çö 
-   2.3. ¿À½Ç·¹ÀÌÅÍ °íÁ¤ ¿ÀÂ÷ º¸Á¤±â´É ±¸Çö 
+2.ê¸°ëŠ¥ êµ¬í˜„ ë¶€ì¡± -> ì½”ë“œ ì§œë©´ì„œ ì´ ê¸°ëŠ¥ êµ¬í˜„í•´ì•¼ ê² ë‹¤! ìƒê°í–ˆëŠ”ë° êµ¬í˜„í•˜ì§€ ì•Šì€ ê²ƒë“¤  
+   2.1. ì‹œê³„ì˜ 10ê°€ì§€ ë™ìž‘ ëª¨ë“œ êµ¬í˜„(ìŠ¤í†±ì›Œì¹˜, ì•ŒëžŒ) 
+   2.2. 4ë…„, 100ë…„ ê°„ê²© ìœ¤ë…„ ë³´ì • ê¸°ëŠ¥ êµ¬í˜„ 
+   2.3. ì˜¤ì‹¤ë ˆì´í„° ê³ ì • ì˜¤ì°¨ ë³´ì •ê¸°ëŠ¥ êµ¬í˜„ 
 
-3. ¼­¹Ì½ºÅÍ ¿Âµµ ¿ÀÂ÷ -> ntc ¼­¹Ì½ºÅÍ·Î ¿Âµµ ÃøÁ¤±â´ÉÀ» ³Ö¾ú´Âµ¥ ¼­¹Ì½ºÅÍ ¿ÂµµÆ¯¼º Ä¿ºê¸¦ ±×´ë·Î ÃßÁ¾ÇÏÁö ¾Ê°í ½ÇÇèÈ¯°æÀÎ 10µµ~25µµ »çÀÌ¸¸ ´ë·« ºñ½ÁÇÑ ¿Âµµ°ªÀÌ ³ª¿Àµµ·Ï ÀÏÂ÷ÇÔ¼ö·Î ¶§·Á¹Ú¾Ò½À´Ï´Ù->¹è¿­¿¡¼­ °ª ºñ±³ÇÏµµ·Ï ¼öÁ¤
-->>»ç½Ç Å°Æ®´ÔÀÌ ¿Ã·ÁÁÖ½Å NTC¼­¹Ì½ºÅÍ ±ÛÀ» ÀÐ¾ú´Âµ¥ ¾Æ¹«¸® ºÁµµ ÀÌÇØµµ ¾ÈµÇ°í ±â´É±¸Çöµµ ½ÇÆÐÇØ¼­... ÇÁ·ÎÁ§Æ® ¸·¹ÙÁö¿¡ ¶«»§½ÄÀ¸·Î ´ëÃæ °ª¸¸ ³ª¿À°Ô ¸¸µé°í ³Ñ°åÁÒ...
+3. ì„œë¯¸ìŠ¤í„° ì˜¨ë„ ì˜¤ì°¨ -> ntc ì„œë¯¸ìŠ¤í„°ë¡œ ì˜¨ë„ ì¸¡ì •ê¸°ëŠ¥ì„ ë„£ì—ˆëŠ”ë° ì„œë¯¸ìŠ¤í„° ì˜¨ë„íŠ¹ì„± ì»¤ë¸Œë¥¼ ê·¸ëŒ€ë¡œ ì¶”ì¢…í•˜ì§€ ì•Šê³  ì‹¤í—˜í™˜ê²½ì¸ 10ë„~25ë„ ì‚¬ì´ë§Œ ëŒ€ëžµ ë¹„ìŠ·í•œ ì˜¨ë„ê°’ì´ ë‚˜ì˜¤ë„ë¡ ì¼ì°¨í•¨ìˆ˜ë¡œ ë•Œë ¤ë°•ì•˜ìŠµë‹ˆë‹¤->ë°°ì—´ì—ì„œ ê°’ ë¹„êµí•˜ë„ë¡ ìˆ˜ì •
+->>ì‚¬ì‹¤ í‚¤íŠ¸ë‹˜ì´ ì˜¬ë ¤ì£¼ì‹  NTCì„œë¯¸ìŠ¤í„° ê¸€ì„ ì½ì—ˆëŠ”ë° ì•„ë¬´ë¦¬ ë´ë„ ì´í•´ë„ ì•ˆë˜ê³  ê¸°ëŠ¥êµ¬í˜„ë„ ì‹¤íŒ¨í•´ì„œ... í”„ë¡œì íŠ¸ ë§‰ë°”ì§€ì— ë•œë¹µì‹ìœ¼ë¡œ ëŒ€ì¶© ê°’ë§Œ ë‚˜ì˜¤ê²Œ ë§Œë“¤ê³  ë„˜ê²¼ì£ ...
 
-4.´ÙÀÌ³ª¹Í µð½ºÇÃ·¹ÀÌ -> ´ÙÀÌ³ª¹Í µð½ºÇÃ·¹ÀÌ¸¦ ±×³É ºü¸£°Ô µ¹·Á¶ó ¼öÁØÀÌ°í, µ¹¾Æ´Â °¡Áö¸¸
-Å¸ÀÌ¸Ó Ä«¿îÆ® ÀÎÅÍ·´Æ®¸¦ ÀÌ¿ëÇØ¼­ ÇÑÀÚ¸®¸¦ Á¤È®ÇÏ°Ô 1ÃÊ¿¡ 60È¸ Ç¥½ÃÇÏµµ·Ï º¯°æ
+4.ë‹¤ì´ë‚˜ë¯¹ ë””ìŠ¤í”Œë ˆì´ -> ë‹¤ì´ë‚˜ë¯¹ ë””ìŠ¤í”Œë ˆì´ë¥¼ ê·¸ëƒ¥ ë¹ ë¥´ê²Œ ëŒë ¤ë¼ ìˆ˜ì¤€ì´ê³ , ëŒì•„ëŠ” ê°€ì§€ë§Œ
+íƒ€ì´ë¨¸ ì¹´ìš´íŠ¸ ì¸í„°ëŸ½íŠ¸ë¥¼ ì´ìš©í•´ì„œ í•œìžë¦¬ë¥¼ ì •í™•í•˜ê²Œ 1ì´ˆì— 60íšŒ í‘œì‹œí•˜ë„ë¡ ë³€ê²½
 
-5.½Ã°è°¡ ½Ã°è°¡ ¾Æ´Ï´Ù-> RTC + EEPROM ÀÌ¿ëÇØ¼­ ½Ã°£À» ÀúÀåÇÏ°Å³ª È¤Àº ½Ã¸®¾ó Åë½ÅÀ¸·Î ½Ã°£µ¥ÀÌÅÍ¸¦ ¹Þ¾Æ¿Ã ¹æ¹ýÀ» °í¹Î Áß ÀÔ´Ï´Ù.
+5.ì‹œê³„ê°€ ì‹œê³„ê°€ ì•„ë‹ˆë‹¤-> RTC + EEPROM ì´ìš©í•´ì„œ ì‹œê°„ì„ ì €ìž¥í•˜ê±°ë‚˜ í˜¹ì€ ì‹œë¦¬ì–¼ í†µì‹ ìœ¼ë¡œ ì‹œê°„ë°ì´í„°ë¥¼ ë°›ì•„ì˜¬ ë°©ë²•ì„ ê³ ë¯¼ ì¤‘ ìž…ë‹ˆë‹¤.
 
-6.ÄÚµù½ºÅ¸ÀÏ ¾Æ½¬¿ò -> 
-           1. Áßº¹µÇ´Â ÄÚµå ¸¹À½(¹Ýº¹¹®À¸·Î °£°áÇÏ°Ô Â¥¸é ÁÁÀ»µí)
-           2. µé¿©¾²±â, ÁÖ¼® ºÎÁ·
-
+6.ì½”ë”©ìŠ¤íƒ€ì¼ ì•„ì‰¬ì›€ -> 
+           1. ì¤‘ë³µë˜ëŠ” ì½”ë“œ ë§ŽìŒ(ë°˜ë³µë¬¸ìœ¼ë¡œ ê°„ê²°í•˜ê²Œ ì§œë©´ ì¢‹ì„ë“¯)
+           2. ë“¤ì—¬ì“°ê¸°, ì£¼ì„ ë¶€ì¡±
+           3. upgrading...
 ============================================================================
-ÄÚµå¸®ºä ÇÏ¸é¼­ Á¦°¡ Â§ ÄÚµå¿¡ ¾Æ½¬¿îÁ¡µé ÀÔ´Ï´Ù. »ç½Ç È¸»ç¿¡¼­ ÄÚµå¸®ºä ÇÏ¸é ¹º°¡ ´«Ä¡°¡ º¸ÀÌÁÒ.. ´«Ä¡¸¦ ÁÖÁö´Â ¾Ê´Âµ¥ ´ë³õ°í ±î±â¿£ ¾ÆÁ÷... .. ¹«¼­¿ö¿ä.. ;¤±;
+ì½”ë“œë¦¬ë·° í•˜ë©´ì„œ ì œê°€ ì§  ì½”ë“œì— ì•„ì‰¬ìš´ì ë“¤ ìž…ë‹ˆë‹¤. ì‚¬ì‹¤ íšŒì‚¬ì—ì„œ ì½”ë“œë¦¬ë·° í•˜ë©´ ë­”ê°€ ëˆˆì¹˜ê°€ ë³´ì´ì£ .. ëˆˆì¹˜ë¥¼ ì£¼ì§€ëŠ” ì•ŠëŠ”ë° ëŒ€ë†“ê³  ê¹Œê¸°ì—” ì•„ì§... .. ë¬´ì„œì›Œìš”.. ;ã…;
 
 
-¾Æ·¡´Â ÄÚµåÀÔ´Ï´Ù. ¾ðÁ¦³ª ÁÁÀº ¸»¾¸ °¨»çÇÕ´Ï´Ù!!
+ì•„ëž˜ëŠ” ì½”ë“œìž…ë‹ˆë‹¤. ì–¸ì œë‚˜ ì¢‹ì€ ë§ì”€ ê°ì‚¬í•©ë‹ˆë‹¤!!
 
 
     File Name : AVR Timer //designed by KDH ----university Embededsysytem 
 ========================================================================*/ 
 
-//=================================================================================¹Ì¸®Á¤ÀÇÇØµÐ ÇØ´õÆÄÀÏÀ» ¼±¾ðÇØÁÖ´Â ºÎºÐÀÔ´Ï´Ù. 
-#define F_CPU 14745600UL //¸ÞÀÎÅ¬·° ¼³Á¤ 
+//=================================================================================ë¯¸ë¦¬ì •ì˜í•´ë‘” í•´ë”íŒŒì¼ì„ ì„ ì–¸í•´ì£¼ëŠ” ë¶€ë¶„ìž…ë‹ˆë‹¤. 
+#define F_CPU 14745600UL //ë©”ì¸í´ëŸ­ ì„¤ì • 
 #include <avr/io.h>    
 #include <avr/interrupt.h> 
 #include <util/delay.h> 
 #include <stdio.h> 
 
-//=================================================================================ÃÊ±â ¼³Á¤(·¹Áö½ºÅÍ ¼³Á¤)À» »ç¿ëÇÒ¼ö ÀÖµµ·Ï Á¤ÀÇµÈ ÇÔ¼ö¸¦ ¼±¾ðÇÏ´Â ºÎºÐÀÔ´Ï´Ù. 
+//=================================================================================ì´ˆê¸° ì„¤ì •(ë ˆì§€ìŠ¤í„° ì„¤ì •)ì„ ì‚¬ìš©í• ìˆ˜ ìžˆë„ë¡ ì •ì˜ëœ í•¨ìˆ˜ë¥¼ ì„ ì–¸í•˜ëŠ” ë¶€ë¶„ìž…ë‹ˆë‹¤. 
 void initialize_timerct(void); 
 void initialize_INT(void); 
 void initialize_PORT(void); 
 void initialize_TIME(void); 
 void initialize_adc(void); 
 
-//=================================================================================Ç¥½ÃÇÔ¼ö ÀÔ´Ï´Ù ÃÑ8°¡ÁöÀÇ ¸ðµå°¡ Á¦°øµË´Ï´Ù. 
-void MODE_TIMER(void);//±âº» ½Ã°è¸ðµå 24½Ã°£ ¸ðµå 
-void MODE_MTIMER(void);//Á¤¹Ð ½Ã°è¸ðµå  
-void MODE_DATE(void);//³¯Â¥ Ç¥½Ã¸ðµå ÀÔ´Ï´Ù 
-void MODE_STOPWATCH(void);//½ºÅ¾¿öÄ¡ ÀÔ´Ï´Ù 
-void MODE_SLEEP(void);//½½¸³¸ðµå ÀÔ´Ï´Ù. 
-void MODE_ALARM(void);//¾Ë¶÷¸ðµå ÀÔ´Ï´Ù. 
-void MODE_TEMP(void);//¿Âµµ¸¦ ³ªÅ¸³»´Â ºÎºÐÀÔ´Ï´Ù 
-void MODE_OFFF(void);//OFF±â´ÉÀÔ´Ï´Ù. 
-void buzzer(void);//ºÎÀú ÇÔ¼ö 
+//=================================================================================í‘œì‹œí•¨ìˆ˜ ìž…ë‹ˆë‹¤ ì´8ê°€ì§€ì˜ ëª¨ë“œê°€ ì œê³µë©ë‹ˆë‹¤. 
+void MODE_TIMER(void);//ê¸°ë³¸ ì‹œê³„ëª¨ë“œ 24ì‹œê°„ ëª¨ë“œ 
+void MODE_MTIMER(void);//ì •ë°€ ì‹œê³„ëª¨ë“œ  
+void MODE_DATE(void);//ë‚ ì§œ í‘œì‹œëª¨ë“œ ìž…ë‹ˆë‹¤ 
+void MODE_STOPWATCH(void);//ìŠ¤íƒ‘ì›Œì¹˜ ìž…ë‹ˆë‹¤ 
+void MODE_SLEEP(void);//ìŠ¬ë¦½ëª¨ë“œ ìž…ë‹ˆë‹¤. 
+void MODE_ALARM(void);//ì•ŒëžŒëª¨ë“œ ìž…ë‹ˆë‹¤. 
+void MODE_TEMP(void);//ì˜¨ë„ë¥¼ ë‚˜íƒ€ë‚´ëŠ” ë¶€ë¶„ìž…ë‹ˆë‹¤ 
+void MODE_OFFF(void);//OFFê¸°ëŠ¥ìž…ë‹ˆë‹¤. 
+void buzzer(void);//ë¶€ì € í•¨ìˆ˜ 
 
-//=================================================================================º¯¼öµé ¼±¾ðÀ» ÇØÁÖ´Â ºÎºÐÀÔ´Ï´Ù 
+//=================================================================================ë³€ìˆ˜ë“¤ ì„ ì–¸ì„ í•´ì£¼ëŠ” ë¶€ë¶„ìž…ë‹ˆë‹¤ 
 volatile unsigned char n=0; 
 volatile unsigned char hh=23,mi=59,ss=55,ms=00; 
 volatile unsigned char yy=15,mo=06,dd=01; 
 volatile unsigned char interrupt_count=100,stw_count=100; 
-volatile unsigned char fnd[16] = {0xC0,0xF9,0xA4,0xB0,0x99,0x92,0x82,0xF8,0x80,0x90};//CAÅ¸ÀÔ SR-2156A FND»ç¿ëÀ» À§ÇÑ ¼±¾ð 
+volatile unsigned char fnd[16] = {0xC0,0xF9,0xA4,0xB0,0x99,0x92,0x82,0xF8,0x80,0x90};//CAíƒ€ìž… SR-2156A FNDì‚¬ìš©ì„ ìœ„í•œ ì„ ì–¸ 
 volatile unsigned char swh=0,swm=0,sws=0,sleep=0x80; 
 volatile unsigned char mode=0; 
 volatile unsigned char alh=2,alm=10,als=55,alarm=1;  
 volatile unsigned int adc_result=0, temp=0; 
 //volatile unsigned char  
 
-//=================================================================================µðÆÄÀÎ Á¤ÀÇ¹®À» ¼±¾ðÇØ³õÀº ºÎºÐÀÔ´Ï´Ù 
-#define FND_TIME _delay_ms(1);//1ms=167Hz, 2ms=83Hz, 3ms=55Hz, 4ms=41Hz, 5ms=33Hz, 6ms=27Hz //ÃÖ¼Ò 30Hz ÀÌ»óÀÌ¸é Ç¥½Ã¿¡ ÁöÀåÀÌ ¾ø½À´Ï´Ù. 
+//=================================================================================ë””íŒŒì¸ ì •ì˜ë¬¸ì„ ì„ ì–¸í•´ë†“ì€ ë¶€ë¶„ìž…ë‹ˆë‹¤ 
+#define FND_TIME _delay_ms(1);//1ms=167Hz, 2ms=83Hz, 3ms=55Hz, 4ms=41Hz, 5ms=33Hz, 6ms=27Hz //ìµœì†Œ 30Hz ì´ìƒì´ë©´ í‘œì‹œì— ì§€ìž¥ì´ ì—†ìŠµë‹ˆë‹¤. 
 #define SLEEP_TIME _delay_ms(100);  
 #define MIST_TIME _delay_us(50);  
 #define buzzer_on PORTF=0x01;_delay_ms(10);PORTF=0x00; 
@@ -76,7 +76,7 @@ volatile unsigned int adc_result=0, temp=0;
 // 
 // 
 // 
-//=================================================================================¿©±â´Â ¸ÞÀÎÇÔ¼ö ÀÔ´Ï´Ù ¹Ýº¹ÀÌ ÇÊ¿ä¾ø´Â°ÍÀº do{}while ¹® ¹Û¿¡ À§Ä¡ÇÕ´Ï´Ù. 
+//=================================================================================ì—¬ê¸°ëŠ” ë©”ì¸í•¨ìˆ˜ ìž…ë‹ˆë‹¤ ë°˜ë³µì´ í•„ìš”ì—†ëŠ”ê²ƒì€ do{}while ë¬¸ ë°–ì— ìœ„ì¹˜í•©ë‹ˆë‹¤. 
 int main(void) 
 { 
 initialize_PORT(); 
@@ -103,26 +103,26 @@ switch(mode){
    }while(1); 
 } 
   
-//================================================================================= ¿©±â±îÁö ¸ÞÀÎÇÔ¼ö ÀÔ´Ï´Ù 
+//================================================================================= ì—¬ê¸°ê¹Œì§€ ë©”ì¸í•¨ìˆ˜ ìž…ë‹ˆë‹¤ 
 // 
 // 
 // 
   
   
   
-//=================================================================================¿ÜºÎ ÀÎÅÍ·´Æ®Á¦¾î°¡ °¡´ÉÇÑ ºÎºÐÀÔ´Ï´Ù. 
-//¿ÜºÎ ÀÎÅÍ·´Æ®¸¦ µÎ°³ »ç¿ëÇÏ±â ¶§¹®¿¡(EXINT0, EXINT1) ÀÌ¸¦ ¼³Á¤ÇØÁÝ´Ï´Ù. 
+//=================================================================================ì™¸ë¶€ ì¸í„°ëŸ½íŠ¸ì œì–´ê°€ ê°€ëŠ¥í•œ ë¶€ë¶„ìž…ë‹ˆë‹¤. 
+//ì™¸ë¶€ ì¸í„°ëŸ½íŠ¸ë¥¼ ë‘ê°œ ì‚¬ìš©í•˜ê¸° ë•Œë¬¸ì—(EXINT0, EXINT1) ì´ë¥¼ ì„¤ì •í•´ì¤ë‹ˆë‹¤. 
 void initialize_INT(void) 
 { 
-EIMSK = 0x03;//¿ÜºÎ ÀÎÅÍ·´Æ® 0(INT0) °ú ¿ÜºÎÀÎÅÍ·´Æ®1À» »ç¿ëÇÏ±â À§ÇÔÀÔ´Ï´Ù. 
+EIMSK = 0x03;//ì™¸ë¶€ ì¸í„°ëŸ½íŠ¸ 0(INT0) ê³¼ ì™¸ë¶€ì¸í„°ëŸ½íŠ¸1ì„ ì‚¬ìš©í•˜ê¸° ìœ„í•¨ìž…ë‹ˆë‹¤. 
 EICRA = 0x03;//falling edge interrupt request 
-sei();//SREGÀÇ ÃÖ»óÀ§ ºñÆ®¸¦1·Î ¼³Á¤ - all interrupt ON 
+sei();//SREGì˜ ìµœìƒìœ„ ë¹„íŠ¸ë¥¼1ë¡œ ì„¤ì • - all interrupt ON 
 } 
   
   
-//================================================================================= Æ÷Æ® ¹æÇâÀ» ¼³Á¤ÇÏ´Â ºÎºÐÀÔ´Ï´Ù. 
-void initialize_PORT(void)//Æ÷Æ®ÀÇ ÀÔÃâ·Â ¹æÇâÀ» ¼³Á¤ÇÕ´Ï´Ù 
-{//0Àº ÀÔ·Â 1Àº Ãâ·Â 
+//================================================================================= í¬íŠ¸ ë°©í–¥ì„ ì„¤ì •í•˜ëŠ” ë¶€ë¶„ìž…ë‹ˆë‹¤. 
+void initialize_PORT(void)//í¬íŠ¸ì˜ ìž…ì¶œë ¥ ë°©í–¥ì„ ì„¤ì •í•©ë‹ˆë‹¤ 
+{//0ì€ ìž…ë ¥ 1ì€ ì¶œë ¥ 
 DDRA=0xff; 
 DDRB=0x0f; 
 DDRC=0xff; 
@@ -133,10 +133,10 @@ DDRF=0x01;
   
   
 //================================================================================= 
-void initialize_TIME(void)//½Ã°£ÀÌ ¿À¹öÇÃ·Î¿ì µÇ¸é ´ÙÀ½ÀÚ¸®·Î ³Ñ°ÜÁÝ´Ï´Ù ÀÌ°Ç ¹Ýº¹ÇØ¼­ °è¼Ó Ã¼Å©ÇØ¾ßÇÕ´Ï´Ù. 
+void initialize_TIME(void)//ì‹œê°„ì´ ì˜¤ë²„í”Œë¡œìš° ë˜ë©´ ë‹¤ìŒìžë¦¬ë¡œ ë„˜ê²¨ì¤ë‹ˆë‹¤ ì´ê±´ ë°˜ë³µí•´ì„œ ê³„ì† ì²´í¬í•´ì•¼í•©ë‹ˆë‹¤. 
 { 
 // 
-//1.ÀÏ¹Ý½Ã°è  2.Á¤¹Ð½Ã°è  5.½½¸³¸ðµå 
+//1.ì¼ë°˜ì‹œê³„  2.ì •ë°€ì‹œê³„  5.ìŠ¬ë¦½ëª¨ë“œ 
 if(ms==100){ms=0;} 
 if(ss==60){ss=0;mi++;} 
 if(mi>60){mi=0;hh++;} 
@@ -146,7 +146,7 @@ if(mo==12){mo=0;yy++;}
 // 
 //  
 // 
-//4.½ºÅ¾¿öÄ¡, ¾÷Ä«¿îÆ® ÇÏ´Ù°¡ ¿À¹öÇÃ·Î°ª¿¡ µµ´ÞÇÏ¸é Ã¼Å©ÈÄ È¯¿øµË´Ï´Ù. 
+//4.ìŠ¤íƒ‘ì›Œì¹˜, ì—…ì¹´ìš´íŠ¸ í•˜ë‹¤ê°€ ì˜¤ë²„í”Œë¡œê°’ì— ë„ë‹¬í•˜ë©´ ì²´í¬í›„ í™˜ì›ë©ë‹ˆë‹¤. 
 if(sws>59){sws=0;swm++;} 
 if(swm>60){swm=0;swh++;} 
 if(swh>24){swh=0;} 
@@ -154,18 +154,18 @@ if(swh>24){swh=0;}
 // 
   
 // 
-//6.¾Ë¶÷ 
+//6.ì•ŒëžŒ 
 if(als==60){als=0;alm--;} 
 if(alm==60){alm=0;alh--;} 
-if(alh==24){alh=0;}//¾Ë¶÷Àº 23½Ã°£ 59ºÐ 59ÃÊ°¡ ÃÖ´ëÀÌ°í ±×ÀÌ»óÀ¸·Î ³Ñ¾î°¡¸é 0ÀÌµÊ 
+if(alh==24){alh=0;}//ì•ŒëžŒì€ 23ì‹œê°„ 59ë¶„ 59ì´ˆê°€ ìµœëŒ€ì´ê³  ê·¸ì´ìƒìœ¼ë¡œ ë„˜ì–´ê°€ë©´ 0ì´ë¨ 
 if(als<0){alm--;als=60;} 
 if(alm<0){alh--;alm=60;} 
 if(alh<0){if(alm==0){if(als==0){alarm=0;buzzer_on;buzzer_on;buzzer_on;buzzer_on;}}} 
-//¾Ë¶÷Àº ¾÷Ä«¿îÆ® ´Ù¿îÄ«¿îÆ® ¸ðµç °æ¿ì¿¡ ´Ù ´ëÀÀÇØ¾ßÇÔ. 
+//ì•ŒëžŒì€ ì—…ì¹´ìš´íŠ¸ ë‹¤ìš´ì¹´ìš´íŠ¸ ëª¨ë“  ê²½ìš°ì— ë‹¤ ëŒ€ì‘í•´ì•¼í•¨. 
 } 
   
   
-void initialize_ALARM(void)//¾Ë¶÷ÀÇ ½Ã°£ÀÌ ¿À¹öÇÃ·Î¿ì µÇ¸é ´ÙÀ½ÀÚ¸®·Î ³Ñ°ÜÁÝ´Ï´Ù ÀÌ°Ç ¹Ýº¹ÇØ¼­ °è¼Ó Ã¼Å©ÇØ¾ßÇÕ´Ï´Ù. 
+void initialize_ALARM(void)//ì•ŒëžŒì˜ ì‹œê°„ì´ ì˜¤ë²„í”Œë¡œìš° ë˜ë©´ ë‹¤ìŒìžë¦¬ë¡œ ë„˜ê²¨ì¤ë‹ˆë‹¤ ì´ê±´ ë°˜ë³µí•´ì„œ ê³„ì† ì²´í¬í•´ì•¼í•©ë‹ˆë‹¤. 
 { 
 if(ms==100){ms=0;} 
 if(ss==60){ss=0;mi++;} 
@@ -177,7 +177,7 @@ if(mo==12){mo=0;yy++;}
   
   
 //================================================================================= 
-void initialize_timerct(void)//1ÃÊ¸¦ ¸¸µé±â À§ÇØ¼­ Å¸ÀÌ¸ÓÄ«¿îÆ® ÀÎÅÍ·´Æ®¸¦ »ç¿ëÇÕ´Ï´Ù. 
+void initialize_timerct(void)//1ì´ˆë¥¼ ë§Œë“¤ê¸° ìœ„í•´ì„œ íƒ€ì´ë¨¸ì¹´ìš´íŠ¸ ì¸í„°ëŸ½íŠ¸ë¥¼ ì‚¬ìš©í•©ë‹ˆë‹¤. 
 { 
    TCCR0 = 0x07; 
     TCNT0 = 0x70;//{(0xff-0x70)+1} * 126 * (1/16Mhz) = 10ms 
@@ -190,7 +190,7 @@ void initialize_timerct(void)//1ÃÊ¸¦ ¸¸µé±â À§ÇØ¼­ Å¸ÀÌ¸ÓÄ«¿îÆ® ÀÎÅÍ·´Æ®¸¦ »ç¿ëÇ
   
   
 //================================================================================= 
-void initialize_adc(void)//¾Æ³¯·Î±× µðÁöÅÐ ÄÁ¹öÆ®  
+void initialize_adc(void)//ì•„ë‚ ë¡œê·¸ ë””ì§€í„¸ ì»¨ë²„íŠ¸  
 { 
     ADMUX = 0x66;//0x66 = 01100110 
                  //bit 7,6  REFS1~REFS0 :   01(AVCC w/External cap.at AREF pin) 
@@ -212,10 +212,10 @@ void initialize_adc(void)//¾Æ³¯·Î±× µðÁöÅÐ ÄÁ¹öÆ®
   
 //================================================================================= 
 void initialize_adc(void); 
- //¾Æ³¯·Î±× µðÁöÅÐ ÄÁ¹öÆ® ºÎºÐÀÔ´Ï´Ù. 
+ //ì•„ë‚ ë¡œê·¸ ë””ì§€í„¸ ì»¨ë²„íŠ¸ ë¶€ë¶„ìž…ë‹ˆë‹¤. 
 SIGNAL(SIG_ADC) 
 { 
-    adc_result = ADCH;      //ADC º¯È¯°ª save 
+    adc_result = ADCH;      //ADC ë³€í™˜ê°’ save 
 } 
   
   
@@ -232,7 +232,7 @@ PORTE=32;PORTA=fnd[ss%10];FND_TIME;
 } 
   
 //================================================================================= 
-void MODE_MTIMER(void)//Á¤¹Ð½Ã°è¸ðµå¸¦ Ç¥½ÃÇÏ´Â ºÎºÐÀÔ´Ï´Ù. 
+void MODE_MTIMER(void)//ì •ë°€ì‹œê³„ëª¨ë“œë¥¼ í‘œì‹œí•˜ëŠ” ë¶€ë¶„ìž…ë‹ˆë‹¤. 
 { 
 PORTE=1 ;PORTA=fnd[mi/10];FND_TIME; 
 PORTE=2 ;PORTA=fnd[mi%10];FND_TIME; 
@@ -244,7 +244,7 @@ PORTE=32;PORTA=fnd[ms%10];FND_TIME;
   
   
 //================================================================================= 
-void MODE_DATE(void)//³¯Â¥¸¦ Ç¥½ÃÇÏ´Â ¸ðµåÀÔ´Ï´Ù. 
+void MODE_DATE(void)//ë‚ ì§œë¥¼ í‘œì‹œí•˜ëŠ” ëª¨ë“œìž…ë‹ˆë‹¤. 
 { 
 PORTE=1 ;PORTA=fnd[yy/10];FND_TIME; 
 PORTE=2 ;PORTA=fnd[yy%10];FND_TIME; 
@@ -255,7 +255,7 @@ PORTE=32;PORTA=fnd[dd%10];FND_TIME;
 ss=0;} 
   
 //================================================================================= 
-void MODE_STOPWATCH(void)//½ºÅ¾À§Ä¡ ¸ðµå¸¦ ¼±¾ðÇØ³õÀº ÇÔ¼öÀÔ´Ï´Ù. 
+void MODE_STOPWATCH(void)//ìŠ¤íƒ‘ìœ„ì¹˜ ëª¨ë“œë¥¼ ì„ ì–¸í•´ë†“ì€ í•¨ìˆ˜ìž…ë‹ˆë‹¤. 
 {sws=ss; 
 PORTE=1 ;PORTA=fnd[swh/10];FND_TIME; 
 PORTE=2 ;PORTA=fnd[swh%10];FND_TIME; 
@@ -267,8 +267,8 @@ PORTE=32;PORTA=fnd[sws%10];FND_TIME;
   
   
 //================================================================================= 
-//Èñ¹ÌÇÔÀ» ±¸ÇöÇÏ´Â ¹æ¹ýÀº Àá±ñÄÑ°í ²¨Áü : MIST_TIME = PORTE=0x00;PORTA=0x00;FND_TIME; 
-// us´ÜÀ§·Î ÄÑ°í ms´ÜÀ§·Î ²¨³õ¾Æ¼­ ÃÊ´ç ÄÑÁö´Â È½¼ö¿Í ½Ã°£À» ¸¦ ÀÇµµÀûÀ¸·Î ÁÙÀÔ´Ï´Ù.  
+//í¬ë¯¸í•¨ì„ êµ¬í˜„í•˜ëŠ” ë°©ë²•ì€ ìž ê¹ì¼œê³  êº¼ì§ : MIST_TIME = PORTE=0x00;PORTA=0x00;FND_TIME; 
+// usë‹¨ìœ„ë¡œ ì¼œê³  msë‹¨ìœ„ë¡œ êº¼ë†“ì•„ì„œ ì´ˆë‹¹ ì¼œì§€ëŠ” íšŸìˆ˜ì™€ ì‹œê°„ì„ ë¥¼ ì˜ë„ì ìœ¼ë¡œ ì¤„ìž…ë‹ˆë‹¤.  
 void MODE_SLEEP(void) 
 { 
 PORTE=1 ;PORTA=fnd[hh/10];MIST_TIME;PORTE=0x00;PORTA=0x00;FND_TIME; 
@@ -281,7 +281,7 @@ PORTE=32;PORTA=fnd[ss%10];MIST_TIME;PORTE=0x00;PORTA=0x00;FND_TIME;
   
   
 //================================================================================= 
-void MODE_ALARM(void)//¾Ë¶÷¸ðµåÀÔ´Ï´Ù. 
+void MODE_ALARM(void)//ì•ŒëžŒëª¨ë“œìž…ë‹ˆë‹¤. 
 {als--; 
 PORTE=1 ;PORTA=fnd[alh/10];FND_TIME; 
 PORTE=2 ;PORTA=fnd[alh%10];FND_TIME; 
@@ -293,7 +293,7 @@ PORTE=32;PORTA=fnd[als%10];FND_TIME;
   
 //================================================================================= 
   
-void MODE_TEMP(void)//¿ÂµµÇ¥½Ã ¼³Á¤ ¸ðµåÀÔ´Ï´Ù. 
+void MODE_TEMP(void)//ì˜¨ë„í‘œì‹œ ì„¤ì • ëª¨ë“œìž…ë‹ˆë‹¤. 
 {temp=adc_result; 
 PORTE=1 ;PORTA=fnd[7];FND_TIME; 
 PORTE=2 ;PORTA=0x86;  FND_TIME; 
@@ -339,12 +339,12 @@ SIGNAL(SIG_OVERFLOW2)//timer1 Overflow interrupt
   
 //================================================================================= 
 SIGNAL(SIG_INTERRUPT0)//Exint0 Overflow interrupt 
-{//½ºÀ§Ä¡¸¦ ´©¸¦¶§¸¶´Ù ºÎÀú°¡ ÄÑÁý´Ï´Ù. 
+{//ìŠ¤ìœ„ì¹˜ë¥¼ ëˆ„ë¥¼ë•Œë§ˆë‹¤ ë¶€ì €ê°€ ì¼œì§‘ë‹ˆë‹¤. 
  mode++; buzzer_on;_delay_ms(2); if(mode>7){mode=0;}  
 } 
   
 //================================================================================= 
-SIGNAL(SIG_INTERRUPT1)//Exint1 ¿ÜºÎÀÎÅÍ·´Æ®1 ½ºÀ§Ä¡´Â ¸ðµåº°·Î µ¿ÀÛÀÌ ¹Ù²î¹Ç·Î ÄÉÀÌ½º¹®À» »ç¿ëÇÕ´Ï´Ù. 
+SIGNAL(SIG_INTERRUPT1)//Exint1 ì™¸ë¶€ì¸í„°ëŸ½íŠ¸1 ìŠ¤ìœ„ì¹˜ëŠ” ëª¨ë“œë³„ë¡œ ë™ìž‘ì´ ë°”ë€Œë¯€ë¡œ ì¼€ì´ìŠ¤ë¬¸ì„ ì‚¬ìš©í•©ë‹ˆë‹¤. 
 { LED_on; 
  switch(mode){ 
   
